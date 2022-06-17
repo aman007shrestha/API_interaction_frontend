@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Frontend</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <div id="container">
+      <div class="form">
+        <div class="form-controller">
+          <label for="title">Title</label>
+          <input class="form__input" type="text" id="title" />
+        </div>
+        <div class="form-controller">
+          <label for="content">Content</label>
+          <textarea
+            class="form__input content__area"
+            id="content"
+            cols="30"
+            rows="10"
+          ></textarea>
+        </div>
+
+        <button class="form__submit" type="submit">Submit</button>
+      </div>
+      <div class="blogs-item"></div>
+    </div>
+  </body>
+  <script src="./assets/js/index.js" type="module"></script>
+</html>
